@@ -1,0 +1,22 @@
+.routine-tracker {
+    background-color: #1c1c1c;
+    min-height: 100vh;
+    color: white;
+    font-family: sans-serif;
+}
+
+.header h2 {
+    font-weight: bold;
+}
+
+.timeline {
+    border: 1px solid #444;
+    padding: 1rem;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.hour-line {
+    padding: 4px 0;
+    border-bottom: 1px solid #333;
+}
