@@ -1,0 +1,42 @@
+.topbar {
+  background: #f8f0f6;
+  padding: 18px 32px 12px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #e5d0ea;
+}
+.topbar-title {
+  font-size: 1.3rem;
+  color: #7c4d8a;
+  font-weight: 500;
+}
+.topbar-controls {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.topbar-timer {
+  background: #fff;
+  border: 1px solid #e5d0ea;
+  border-radius: 20px;
+  padding: 6px 18px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.1rem;
+  color: #7c4d8a;
+}
+.timer-btn {
+  background: #a97fd6;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  padding: 4px 14px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-left: 8px;
+}
+.topbar-profile {
+  font-size: 1.5rem;
+} 

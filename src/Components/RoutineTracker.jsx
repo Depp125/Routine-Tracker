@@ -49,12 +49,19 @@ const RoutineTracker = () => {
       </div>
 
       {/* Date Picker */}
-      <div className="mb-3 text-center">
+      {/* <div className="mb-3 text-center">
         <Calendar
           value={date}
           onChange={(e) => setDate(e.value)}
           dateFormat="mm/dd/yy"
           showIcon
+        />
+      </div> */}
+      <div className="mb-3 text-center">
+        <Calendar
+          value={date}
+          onChange={(e) => setDate(e.value)}
+          dateFormat="mm/dd/yy"
         />
       </div>
 
